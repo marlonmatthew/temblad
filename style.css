@@ -14,3 +14,7 @@
 .dropdown-toggle:not(:focus) {
   outline: 0;
 }
+
+.nav-item {
+font-family: 'Cinzel', serif;
+}
