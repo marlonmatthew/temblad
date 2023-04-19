@@ -6,6 +6,12 @@
     background-size: cover;
 }
 
+@media (max-width: 575.98px) {
+    #random {
+        background-size: 640px 960px;
+    }
+}
+
 a {
     color:#afafaf;
 }
