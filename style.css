@@ -9,12 +9,13 @@ body {
 
 @media (max-width: 480px) {
     body {
+    background-image: url(img/temback21.png);
     background-color: #000000;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    background-image: url(img/temback21.png);
+    
     }
 }
 
