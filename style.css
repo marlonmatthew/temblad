@@ -4,11 +4,17 @@
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    height: 100%;
-    overflow: hidden;
+}
+
+@media (max-width: 480px) {
+    #random {
+        background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+        background-image: url(img/temback21.png);
+    }
 }
 
 a {
