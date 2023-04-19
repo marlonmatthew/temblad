@@ -11,8 +11,7 @@
         background-color: #000000;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center center;
-        background-size: contain;
+        background-size: 375px 667px;
     }
 }
 
