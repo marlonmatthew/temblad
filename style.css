@@ -7,6 +7,12 @@ body {
     background-size: cover;
 }
 
+@media (max-width: 280px) {
+    header {
+        margin-left: 85px;
+    }
+}
+
 a {
     color:#afafaf;
 }
@@ -16,12 +22,13 @@ a:visited {
 }
 
 a:active {
-    color: #ff0000;
+    color: #afafaf;
 }
 
 i {
     margin-top: 20px;
     margin-right: 10px;
+    color: #ffffff !important;
 }
 
 @media (max-width: 820px) {
@@ -62,7 +69,13 @@ i {
     }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 540px) {
+    #logo {
+        margin-left: -340px;
+    }
+}
+
+@media (max-width: 539.98px) {
     #logo {
         margin-left: -220px;
     }
@@ -81,9 +94,38 @@ i:hover {
     bottom:-95px
 }
 
+@media (max-width: 1152px) {
+    .nav {
+        margin-top: -80px;
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav {
+        margin-top: -80px;
+        margin-bottom: 75px;
+    }
+}
+
+@media (max-width: 912px) {
+    .nav {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav {
+        margin-top: -90px;
+        margin-bottom: 70px;
+}
+}
+
 @media (max-width: 575.98px) {
     .nav {
         margin-top: -110px;
+        margin-bottom: 0px;
     }
 }
 
@@ -91,6 +133,14 @@ i:hover {
     .nav {
         margin-top: -110px;
         margin-left: 15px;
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 414px) {
+    #icons {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
@@ -112,12 +162,24 @@ i:hover {
 
 @media (max-width: 820px) {
     .nav-link {
-        padding-right: 20px;
+        padding-right: 40px;
         margin-top: 10px;
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 540px) {
+    .nav-link {
+        font-family: 'Cinzel', serif;
+        font-weight:500;
+        font-size: 22px;
+        color: white !important;
+        filter: drop-shadow(-1px 2px 2px #000000);
+        padding-right: 400px;
+        margin-left:10px;
+    }
+}
+
+@media (max-width: 539.98px) {
     .nav-link {
         font-family: 'Cinzel', serif;
         font-weight:500;
@@ -211,9 +273,23 @@ i:hover {
     }
 }
 
+@media (max-width: 280px) {
+    #flyer {
+        width: 200px;
+    height: auto;
+    }
+}
+
 @media (max-width: 575.98px) {
     #youtube {
         width: 275px;
+    height: auto;
+    }
+}
+
+@media (max-width: 280px) {
+    #youtube {
+        width: 200px;
     height: auto;
     }
 }
@@ -233,6 +309,13 @@ i:hover {
 @media (max-width: 575.98px) {
     #cover {
         width: 275px;
+    height: auto;
+    }
+}
+
+@media (max-width: 280px) {
+    #cover {
+        width: 200px;
     height: auto;
     }
 }
@@ -290,7 +373,7 @@ i:hover {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 539.98px) {
     #footer1 {
         display:none;
     }
@@ -306,12 +389,18 @@ i:hover {
 @media (max-width: 820px) {
     #footer2 {
        margin-right:60px;
-       margin-left:-110px;
+       margin-left:-150px;
        margin-top: 10px;
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 540px) {
+    #footer2 {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 539.98px) {
     #footer2 {
         margin-top: -100px;
         margin-left: 55px;
@@ -332,11 +421,46 @@ i:hover {
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 414px) {
+    #footer3 {
+       margin-left: -467px;
+       margin-top: 120px;
+    }
+}
+
+@media (max-width: 393px) {
+    #footer3 {
+       margin-left: -452px;
+       margin-top: 120px;
+    }
+}
+
+@media (max-width: 390px) {
+    #footer3 {
+       margin-left: -451px;
+       margin-top: 120px;
+    }
+}
+
+@media (max-width: 375px) {
     #footer3 {
        margin-left: -445px;
        margin-top: 120px;
     }
+}
+
+@media (max-width: 360px) {
+    #footer3 {
+       margin-left: -435px;
+       margin-top: 120px;
+    }
+}
+
+@media (max-width: 280px) {
+    #footer3 {
+        margin-left: -395px;
+        margin-top: 150px;
+     }
 }
 
 #post-arrows1{
@@ -397,9 +521,23 @@ i:hover {
     }
 }
 
+@media (max-width: 280px) {
+    #shows {
+        width: 200px;
+    height: auto;
+    }
+}
+
 @media (max-width: 575.98px) {
     #cattle {
         width: 275px;
+    height: auto;
+    }
+}
+
+@media (max-width: 280px) {
+    #cattle {
+        width: 200px;
     height: auto;
     }
 }
@@ -416,16 +554,4 @@ i:hover {
     height: auto;
     filter: drop-shadow(-1px 2px 2px #ff0000);
     margin-left: 200px;
-}
-
-@media (max-width: 820px) {
-    #info {
-       margin-top: -60px;
-    }
-}
-
-@media (max-width: 575.98px) {
-    #info {
-       margin-top: -50px;
-    }
 }
