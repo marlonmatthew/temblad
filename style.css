@@ -8,6 +8,10 @@
 
 @media (max-width: 575.98px) {
     #random {
+        background-color: #000000;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
         background-size: 640px 960px;
     }
 }
