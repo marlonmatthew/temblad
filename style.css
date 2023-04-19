@@ -10,8 +10,7 @@ body {
 @media (max-width: 414px) {
     body {
         background-color: #000000;
-        background-image: url(img/temback2.png);
-    background-repeat: no-repeat;
+        background-image: none;
     }
 }
 
