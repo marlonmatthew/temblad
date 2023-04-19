@@ -4,6 +4,11 @@
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 100%;
+    overflow: hidden;
 }
 
 a {
