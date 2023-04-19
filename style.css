@@ -1,21 +1,10 @@
 body {
     background-color: #000000;
-    background-image: url(img/temback2.png);
+    background-image: url(img/temback.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-}
-
-@media (max-width: 480px) {
-    body {
-    background-color: #000000;
-    background-image: url(img/temback21.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: 100% 100%;
-    }
 }
 
 a {
