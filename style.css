@@ -7,9 +7,26 @@ body {
     background-size: cover;
 }
 
+@media (max-width: 540px) {
+    body {
+    background-color: #000000;
+    background-image: none;
+    }
+}
+
 @media (max-width: 280px) {
     header {
         margin-left: 85px;
+    }
+}
+
+@media (max-width: 540px) {
+    #top {
+    background-color: #000000;
+    background-image: url(img/temback.png);
+    background-position: center center;
+    background-size: cover;
+    height:550px; 
     }
 }
 
@@ -29,6 +46,7 @@ i {
     margin-top: 20px;
     margin-right: 10px;
     color: #ffffff !important;
+    text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
 }
 
 @media (max-width: 820px) {
@@ -46,9 +64,8 @@ i {
 }
 
 #logo {
-    width: 125px;
+    width: 170px;
     height: auto;
-    filter: drop-shadow(-1px 2px 2px #ff0000);
 } 
 
 @media (max-width: 912px) {
@@ -85,6 +102,36 @@ i {
 @media (max-width: 539.98px) {
     #logo {
         margin-left: -220px;
+    }
+}
+
+@media (max-width: 393.98px) {
+    #logo {
+        margin-left: -210px;
+    }
+}
+
+@media (max-width: 390.98px) {
+    #logo {
+        margin-left: -205px;
+    }
+}
+
+@media (max-width: 375.98px) {
+    #logo {
+        margin-left: -195px;
+    }
+}
+
+@media (max-width: 360.98px) {
+    #logo {
+        margin-left: -180px;
+    }
+}
+
+@media (max-width: 280.98px) {
+    #logo {
+        margin-left: -185px;
     }
 }
 
@@ -158,6 +205,12 @@ i:hover {
     }
 }
 
+@media (max-width: 540px) {
+    #icons {
+        margin-top: 20px;
+    }
+}
+
 @media (max-width: 414px) {
     #icons {
         margin-top: 10px;
@@ -170,7 +223,7 @@ i:hover {
     font-weight:500;
     font-size: 22px;
     color: white !important;
-    filter: drop-shadow(-1px 2px 2px #000000);
+    text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
     padding-right: 100px;
 }
 
@@ -230,6 +283,12 @@ i:hover {
 @media (max-width: 575.98px) {
     #post-div {
         margin-top: 110px;
+    }
+}
+
+@media (max-width: 540px) {
+    #post-div {
+        margin-top: 0px;
     }
 }
 
@@ -415,6 +474,15 @@ i:hover {
     color: white;
 }
 
+@media (max-width: 540px) {
+    #footer {
+        background-color: #000000;
+        background-image: url(img/temback.png);
+        background-position: center center;
+        background-size: cover;
+    }
+}
+
 @media (max-width: 912px) {
     #footer1 {
        margin-right: 30px;
@@ -446,6 +514,7 @@ i:hover {
 @media (max-width: 540px) {
     #footer2 {
         margin-top: 20px;
+        text-shadow: rgb(0, 0, 0) 3px 0px 0px, rgb(0, 0, 0) 2.83487px 0.981584px 0px, rgb(0, 0, 0) 2.35766px 1.85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 2.91581px 0px, rgb(0, 0, 0) -0.287171px 2.98622px 0px, rgb(0, 0, 0) -1.24844px 2.72789px 0px, rgb(0, 0, 0) -2.07227px 2.16926px 0px, rgb(0, 0, 0) -2.66798px 1.37182px 0px, rgb(0, 0, 0) -2.96998px 0.42336px 0px, rgb(0, 0, 0) -2.94502px -0.571704px 0px, rgb(0, 0, 0) -2.59586px -1.50383px 0px, rgb(0, 0, 0) -1.96093px -2.27041px 0px, rgb(0, 0, 0) -1.11013px -2.78704px 0px, rgb(0, 0, 0) -0.137119px -2.99686px 0px, rgb(0, 0, 0) 0.850987px -2.87677px 0px, rgb(0, 0, 0) 1.74541px -2.43999px 0px, rgb(0, 0, 0) 2.44769px -1.73459px 0px, rgb(0, 0, 0) 2.88051px -0.838247px 0px;
     }
 }
 
