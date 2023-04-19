@@ -8,6 +8,7 @@
 
 @media (max-width: 575.98px) {
     #random {
+        background-color: #000000;
     background-repeat: no-repeat;
     background-position: 0px 0px;
     background-attachment: fixed;
