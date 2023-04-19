@@ -1,5 +1,6 @@
-#random {
+body {
     background-color: #000000;
+    background-image: url(img/temback2.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
@@ -7,13 +8,13 @@
 }
 
 @media (max-width: 480px) {
-    #random {
-        background-color: #000000;
+    body {
+    background-color: #000000;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center center;
     background-size: cover;
-        background-image: url(img/temback21.png);
+    background-image: url(img/temback21.png);
     }
 }
 
