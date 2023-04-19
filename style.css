@@ -7,13 +7,6 @@ body {
     background-size: cover;
 }
 
-@media (max-width: 414px) {
-    body {
-        background-color: #000000;
-        background-image: none;
-    }
-}
-
 @media (max-width: 280px) {
     header {
         margin-left: 85px;
